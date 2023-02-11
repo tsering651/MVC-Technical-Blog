@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://thymeleaf.org">
-<head>
-    <meta charset="UTF-8">
-    <title>Technical Blog Application</title>
+<head th:replace="layout::site-head">
+
 </head>
+
+<header th:replace="layout  :: logged-out">
+
+</header>
 <body>
+
   <h1>All Technical Posts :</h1>
   <p>This is a technical blog application which help user to post their technicasl knowledge</p>
 
